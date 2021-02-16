@@ -25,7 +25,16 @@ namespace Shapes_Intersection_test
 
         public Dictionary<int, List<int>> FindIntersections(List<Shape> shapes)
         {
-            return shapes;
+            Dictionary<int, List<int>> returnDictionary = new Dictionary<int, List<int>>();
+            for(int i = 0; i < shapes.Count; i++)
+            {
+                List<int> intersections = new List<int>();
+                for (int j = 0; j < shapes.Count; j++)
+                {
+
+                }
+            }
+            return returnDictionary;
         }
     }
 
