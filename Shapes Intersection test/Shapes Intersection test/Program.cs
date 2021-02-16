@@ -6,18 +6,34 @@ namespace Shapes_Intersection_test
 {
     class Program
     {
-        List<Shape> shapes;
-        List<int> results;
-        Dictionary<int, List<int>> intersectionDictionary;
+        static List<Shape> shapes;
+        static List<int> results;
+        static Dictionary<int, List<int>> intersectionDictionary;
 
         static void Main(string[] args)
         {
             Console.WriteLine("Checking intersections...");
             CreateShapes();
             intersectionDictionary = FindIntersections(shapes);
+
+            for (int i = 0; i < intersectionDictionary.Count; i++)
+            {
+                results = intersectionDictionary[i + 1];
+                Console.Write(" Shape of ID " + (i + 1));
+                Console.Write(" Intersects with Shape with ID ");
+                for (int j = 0; j < results.Count; j++)
+                {
+                    Console.Write(results[j]);
+                    if (j + 1 < results.Count)
+                    {
+                        Console.Write(", ");
+                    }
+                }
+                Console.WriteLine(" ");
+            }
         }
 
-        public Dictionary<int, List<int>> FindIntersections(List<Shape> shapes)
+        public static Dictionary<int, List<int>> FindIntersections(List<Shape> shapes)
         {
             Dictionary<int, List<int>> returnDictionary = new Dictionary<int, List<int>>();
             for(int i = 0; i < shapes.Count; i++)
@@ -38,7 +54,7 @@ namespace Shapes_Intersection_test
             return returnDictionary;
         }
 
-        public void CreateShapes()
+        public static void CreateShapes()
         {
             shapes = new List<Shape>();
             shapes.Add(new CustomRectangle(55, 70, 170, 90, 1));
@@ -47,7 +63,7 @@ namespace Shapes_Intersection_test
             shapes.Add(new Circle(12, 9, 15, 4));
         }
 
-        public bool intersectionType(Shape a, Shape b)
+        public static bool intersectionType(Shape a, Shape b)
         {
             bool returnBool = false;
             Type shapeA = a.GetType();
