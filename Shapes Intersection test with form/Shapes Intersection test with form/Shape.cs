@@ -4,15 +4,20 @@ namespace Shapes_Intersection_test_with_form
 {
     public class Shape
     {
-        public int ID; //{ get; private set; }
-        public int X; //{ get; private set; }
-        public int Y;//{ get; private set; }
-        public int Height;//{ get; set; }
-        public int Width;//{ get; set; }
+        public int ID; 
+        public int X; 
+        public int Y;
+        public int Height;
+        public int Width;
 
-        public virtual void Draw()
+        public Shape(int id, int x, int y, int height, int width)
         {
-            Console.WriteLine("Drawing shape");
+            ID = id;
+            X = x;
+            Y = y;
+            Height = height;
+            Width = width;
         }
+
     }
 }

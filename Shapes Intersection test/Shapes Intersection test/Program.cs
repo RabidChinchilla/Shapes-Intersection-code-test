@@ -18,5 +18,6 @@ namespace Shapes_Intersection_test
 
     public class Shape
     {
+
     }
 }

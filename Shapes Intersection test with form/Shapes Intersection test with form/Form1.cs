@@ -22,15 +22,17 @@ namespace Shapes_Intersection_test_with_form
         Pen blue = new Pen(Color.Blue);
         Pen green = new Pen(Color.Green);
 
-        Shape rect1 = new Shape();
-        rect1.ID = 2;
+        Shape rectangle1 = new Shape(2, 55, 70, 170, 90);
+        Shape rectangle2 = new Shape(3, 90, 120, 20, 90);
+        Shape circle = new Shape(1, 20, 20, 90, 90);
+
 
         //x position, y position, width, height
-        //Rectangle rect1 = new Rectangle(55, 70, 170, 90);
-        //Rectangle circle = new Rectangle(20, 20, 90, 90);
-        //Rectangle rect2 = new Rectangle(90, 120, 20, 90);
+        Rectangle rect1 = new Rectangle(55, 70, 170, 90);
+        Rectangle circ = new Rectangle(20, 20, 90, 90);
+        Rectangle rect2 = new Rectangle(90, 120, 20, 90);
 
-        List<Shape> shapeList = new List<Shape>();
+        List <Shape> shapeList = new List<Shape>();
 
         private void Form1_Paint(object sender, PaintEventArgs e)
         {
@@ -38,7 +40,8 @@ namespace Shapes_Intersection_test_with_form
 
             g.DrawRectangle(black, rect1);
             g.DrawRectangle(green, rect2);
-            g.DrawEllipse(blue, circle);
+            g.DrawEllipse(blue, circ);
         }
     }
+
 }
