@@ -23,24 +23,6 @@ namespace Shapes_Intersection_test_with_form
             base.Dispose(disposing);
         }
 
-        private void StaticRectangleIntersection(PaintEventArgs e)
-        {
-            Rectangle rectangle1 = new Rectangle(50, 50, 200, 100);
-            Rectangle rectangle2 = new Rectangle(70, 20, 100, 200);
-            Rectangle rectangle3 = new Rectangle();
-
-            e.Graphics.DrawRectangle(Pens.Black, rectangle1);
-            e.Graphics.DrawRectangle(Pens.Red, rectangle2);
-
-            if (rectangle1.IntersectsWith(rectangle2))
-            {
-                rectangle3 = Rectangle.Intersect(rectangle1, rectangle2);
-                if (!rectangle3.IsEmpty)
-                {
-                    e.Graphics.FillRectangle(Brushes.Green, rectangle3);
-                }
-            }
-        }
 
         /// <summary>
         ///  Required method for Designer support - do not modify
@@ -48,10 +30,18 @@ namespace Shapes_Intersection_test_with_form
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.Form1_Paint);
+            this.ResumeLayout(false);
+
         }
 
     }
