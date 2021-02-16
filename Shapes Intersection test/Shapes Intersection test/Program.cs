@@ -12,7 +12,11 @@ namespace Shapes_Intersection_test
 
         public Dictionary<int, List<int>> FindIntersections(List<Shape> shapes)
         {
-
+            return shapes;
         }
+    }
+
+    public class Shape
+    {
     }
 }

@@ -1,0 +1,15 @@
+C:\Users\Gearing\Documents\GitHub\Shapes-Intersection-code-test\Shapes Intersection test with form\Shapes Intersection test with form\bin\Debug\netcoreapp3.1\Shapes Intersection test with form.exe
+C:\Users\Gearing\Documents\GitHub\Shapes-Intersection-code-test\Shapes Intersection test with form\Shapes Intersection test with form\bin\Debug\netcoreapp3.1\Shapes Intersection test with form.deps.json
+C:\Users\Gearing\Documents\GitHub\Shapes-Intersection-code-test\Shapes Intersection test with form\Shapes Intersection test with form\bin\Debug\netcoreapp3.1\Shapes Intersection test with form.runtimeconfig.json
+C:\Users\Gearing\Documents\GitHub\Shapes-Intersection-code-test\Shapes Intersection test with form\Shapes Intersection test with form\bin\Debug\netcoreapp3.1\Shapes Intersection test with form.runtimeconfig.dev.json
+C:\Users\Gearing\Documents\GitHub\Shapes-Intersection-code-test\Shapes Intersection test with form\Shapes Intersection test with form\bin\Debug\netcoreapp3.1\Shapes Intersection test with form.dll
+C:\Users\Gearing\Documents\GitHub\Shapes-Intersection-code-test\Shapes Intersection test with form\Shapes Intersection test with form\bin\Debug\netcoreapp3.1\Shapes Intersection test with form.pdb
+C:\Users\Gearing\Documents\GitHub\Shapes-Intersection-code-test\Shapes Intersection test with form\Shapes Intersection test with form\obj\Debug\netcoreapp3.1\Shapes Intersection test with form.csprojAssemblyReference.cache
+C:\Users\Gearing\Documents\GitHub\Shapes-Intersection-code-test\Shapes Intersection test with form\Shapes Intersection test with form\obj\Debug\netcoreapp3.1\Shapes_Intersection_test_with_form.Form1.resources
+C:\Users\Gearing\Documents\GitHub\Shapes-Intersection-code-test\Shapes Intersection test with form\Shapes Intersection test with form\obj\Debug\netcoreapp3.1\Shapes Intersection test with form.csproj.GenerateResource.cache
+C:\Users\Gearing\Documents\GitHub\Shapes-Intersection-code-test\Shapes Intersection test with form\Shapes Intersection test with form\obj\Debug\netcoreapp3.1\Shapes Intersection test with form.AssemblyInfoInputs.cache
+C:\Users\Gearing\Documents\GitHub\Shapes-Intersection-code-test\Shapes Intersection test with form\Shapes Intersection test with form\obj\Debug\netcoreapp3.1\Shapes Intersection test with form.AssemblyInfo.cs
+C:\Users\Gearing\Documents\GitHub\Shapes-Intersection-code-test\Shapes Intersection test with form\Shapes Intersection test with form\obj\Debug\netcoreapp3.1\Shapes Intersection test with form.csproj.CoreCompileInputs.cache
+C:\Users\Gearing\Documents\GitHub\Shapes-Intersection-code-test\Shapes Intersection test with form\Shapes Intersection test with form\obj\Debug\netcoreapp3.1\Shapes Intersection test with form.dll
+C:\Users\Gearing\Documents\GitHub\Shapes-Intersection-code-test\Shapes Intersection test with form\Shapes Intersection test with form\obj\Debug\netcoreapp3.1\Shapes Intersection test with form.pdb
+C:\Users\Gearing\Documents\GitHub\Shapes-Intersection-code-test\Shapes Intersection test with form\Shapes Intersection test with form\obj\Debug\netcoreapp3.1\Shapes Intersection test with form.genruntimeconfig.cache
