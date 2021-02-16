@@ -35,7 +35,9 @@ namespace Shapes_Intersection_test
 
         public static Dictionary<int, List<int>> FindIntersections(List<Shape> shapes)
         {
+            // define dictionary
             Dictionary<int, List<int>> returnDictionary = new Dictionary<int, List<int>>();
+            // for every shape check for a intersection between the other shapes
             for(int i = 0; i < shapes.Count; i++)
             {
                 List<int> intersections = new List<int>();
@@ -49,6 +51,7 @@ namespace Shapes_Intersection_test
                         }
                     }
                 }
+                //add results to dictionary
                 returnDictionary.Add(shapes[i].ID, intersections);
             }
             return returnDictionary;
@@ -66,21 +69,26 @@ namespace Shapes_Intersection_test
         public static bool intersectionType(Shape a, Shape b)
         {
             bool returnBool = false;
+            //take in what type class the shapes are
             Type shapeA = a.GetType();
             Type shapeB = b.GetType();
 
+            //if a rectangle and circle need to be compared use the specific intersectCheck for that combination
             if (shapeA == typeof(CustomRectangle) && shapeB == typeof(Circle))
             {
                 returnBool = intersectCheck(a as CustomRectangle, b as Circle);
             }
+            //if two rectangles used the specific intersectCheck for that
             if (shapeA == typeof(CustomRectangle) && shapeB == typeof(CustomRectangle))
             {
                 returnBool = intersectCheck(a as CustomRectangle, b as CustomRectangle);
             }
+            //same as the top but checking if it's the otherway around.
             if (shapeA == typeof(Circle) && shapeB == typeof(CustomRectangle))
             {
                 returnBool = intersectCheck(b as CustomRectangle, a as Circle);
             }
+            //if two circles use that specific intersectCheck
             if (shapeA == typeof(Circle) && shapeB == typeof(Circle))
             {
                 returnBool = intersectCheck(b as Circle, a as Circle);
@@ -89,6 +97,8 @@ namespace Shapes_Intersection_test
             return returnBool;
         }
 
+        //intersectCheck for two rectangles, casts them into the System.Drawing rectangle type so it can use the Rectangle.IntersectsWith method.
+        //I did this because the maths was already built in and it saved me time.
         public static bool intersectCheck(CustomRectangle rect1, CustomRectangle rect2)
         {
             Rectangle rectangle1 = new Rectangle(rect1.dimensions.X, rect1.dimensions.Y, rect1.dimensions.Width, rect1.dimensions.Height);
@@ -104,8 +114,10 @@ namespace Shapes_Intersection_test
             }
         }
 
+        // intersect check for two circles.
         public static bool intersectCheck(Circle circ1, Circle circ2)
         {
+            //gets the distance between the two and if circles and if the distance is greater than the combined radii then they don't intersect
             float xDistance = circ1.X - circ2.X;
             float yDistance = circ1.Y - circ2.Y;
             var distance = Math.Sqrt(xDistance * xDistance + yDistance * yDistance);
@@ -119,6 +131,7 @@ namespace Shapes_Intersection_test
             }
         }
 
+        //intersect check for a rectangle and a circle.
         public static bool intersectCheck(CustomRectangle rect, Circle circ)
         {
             float cx = Math.Abs(circ.X - rect.dimensions.X - rect.dimensions.Width / 2);
