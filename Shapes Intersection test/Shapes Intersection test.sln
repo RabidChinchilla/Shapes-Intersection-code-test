@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shapes Intersection test", "Shapes Intersection test\Shapes Intersection test.csproj", "{0382CA01-0C7B-4D25-B870-CE72AE6C9363}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0382CA01-0C7B-4D25-B870-CE72AE6C9363}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0382CA01-0C7B-4D25-B870-CE72AE6C9363}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0382CA01-0C7B-4D25-B870-CE72AE6C9363}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0382CA01-0C7B-4D25-B870-CE72AE6C9363}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16DE83F3-B273-47A7-98C7-6F6951324C86}
+	EndGlobalSection
+EndGlobal
