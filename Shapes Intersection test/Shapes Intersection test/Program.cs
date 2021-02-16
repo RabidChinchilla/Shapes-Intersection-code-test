@@ -6,20 +6,14 @@ namespace Shapes_Intersection_test
 {
     class Program
     {
+        List<Shape> shapes;
+        List<int> results;
+        Dictionary<int, List<int>> intersectionDictionary;
+
         static void Main(string[] args)
         {
-            Shape rectangle1 = new Shape(2, 55, 70, 170, 90);
-            Shape rectangle2 = new Shape(3, 90, 120, 20, 90);
-            Shape circle = new Shape(1, 20, 20, 90, 90);
-
-            List<Shape> shapes = new List<Shape>();
-            shapes.Add(rectangle1);
-            shapes.Add(rectangle2);
-            shapes.Add(circle);
 
             Console.WriteLine("Shapes made");
-            shapes.ForEach(i => Console.WriteLine("{0}\t", i.ID));
-            shapes.ForEach(i => Console.WriteLine("{0}\t", i.dimensions));
 
         }
 
@@ -36,21 +30,59 @@ namespace Shapes_Intersection_test
             }
             return returnDictionary;
         }
+
+        public void CreateShapes()
+        {
+            shapes = new List<Shape>();
+            shapes.Add(new CustomRectangle(55, 70, 170, 90, 1));
+            shapes.Add(new CustomRectangle(90, 120, 20, 90, 2));
+            shapes.Add(new Circle(20, 20, 10, 3));
+            shapes.Add(new Circle(12, 9, 15, 4));
+        }
+
+        public bool intersectionType(Shape a, Shape b)
+        {
+            bool returnBool = false;
+            Type shapeA = a.GetType();
+            Type shapeB = b.GetType();
+
+
+            return returnBool;
+        }
     }
 
     public class Shape
     {
-        public int ID;
+        public int ID { get; set; }
+        public float X { get; set; }
+        public float Y { get; set; }
+    }
+
+    public class Circle : Shape
+    {
+        public int Radius { get; private set; }
+
+        public Circle(float x, float y, int radius, int id)
+        {
+            Radius = radius;
+            X = x;
+            Y = y;
+            ID = id;
+
+        }
+    }
+
+    public class CustomRectangle : Shape
+    {
         public Rectangle dimensions;
 
-
-        public Shape(int id, int x, int y, int height, int width)
+        public CustomRectangle(int x, int y, int width, int height, int id)
         {
-            ID = id;
             dimensions.X = x;
             dimensions.Y = y;
-            dimensions.Height = height;
             dimensions.Width = width;
+            dimensions.Height = height;
+            ID = id;
         }
     }
 }
