@@ -1,0 +1,13 @@
+C:\Users\Gearing\Documents\GitHub\Shapes-Intersection-code-test\Shapes Intersection test\Shapes Intersection test\bin\Debug\netcoreapp3.1\Shapes Intersection test.exe
+C:\Users\Gearing\Documents\GitHub\Shapes-Intersection-code-test\Shapes Intersection test\Shapes Intersection test\bin\Debug\netcoreapp3.1\Shapes Intersection test.deps.json
+C:\Users\Gearing\Documents\GitHub\Shapes-Intersection-code-test\Shapes Intersection test\Shapes Intersection test\bin\Debug\netcoreapp3.1\Shapes Intersection test.runtimeconfig.json
+C:\Users\Gearing\Documents\GitHub\Shapes-Intersection-code-test\Shapes Intersection test\Shapes Intersection test\bin\Debug\netcoreapp3.1\Shapes Intersection test.runtimeconfig.dev.json
+C:\Users\Gearing\Documents\GitHub\Shapes-Intersection-code-test\Shapes Intersection test\Shapes Intersection test\bin\Debug\netcoreapp3.1\Shapes Intersection test.dll
+C:\Users\Gearing\Documents\GitHub\Shapes-Intersection-code-test\Shapes Intersection test\Shapes Intersection test\bin\Debug\netcoreapp3.1\Shapes Intersection test.pdb
+C:\Users\Gearing\Documents\GitHub\Shapes-Intersection-code-test\Shapes Intersection test\Shapes Intersection test\obj\Debug\netcoreapp3.1\Shapes Intersection test.csprojAssemblyReference.cache
+C:\Users\Gearing\Documents\GitHub\Shapes-Intersection-code-test\Shapes Intersection test\Shapes Intersection test\obj\Debug\netcoreapp3.1\Shapes Intersection test.AssemblyInfoInputs.cache
+C:\Users\Gearing\Documents\GitHub\Shapes-Intersection-code-test\Shapes Intersection test\Shapes Intersection test\obj\Debug\netcoreapp3.1\Shapes Intersection test.AssemblyInfo.cs
+C:\Users\Gearing\Documents\GitHub\Shapes-Intersection-code-test\Shapes Intersection test\Shapes Intersection test\obj\Debug\netcoreapp3.1\Shapes Intersection test.csproj.CoreCompileInputs.cache
+C:\Users\Gearing\Documents\GitHub\Shapes-Intersection-code-test\Shapes Intersection test\Shapes Intersection test\obj\Debug\netcoreapp3.1\Shapes Intersection test.dll
+C:\Users\Gearing\Documents\GitHub\Shapes-Intersection-code-test\Shapes Intersection test\Shapes Intersection test\obj\Debug\netcoreapp3.1\Shapes Intersection test.pdb
+C:\Users\Gearing\Documents\GitHub\Shapes-Intersection-code-test\Shapes Intersection test\Shapes Intersection test\obj\Debug\netcoreapp3.1\Shapes Intersection test.genruntimeconfig.cache
